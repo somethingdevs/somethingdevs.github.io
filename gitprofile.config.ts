@@ -106,19 +106,19 @@ const CONFIG = {
 ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'The Ingentas',
+      position: 'Software Developer Intern',
+      from: 'May 2022',
+      to: 'July 2022',
+      companyLink: 'https://www.linkedin.com/company/the-ingentas-corp/',
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'July 2019',
+    //   to: 'August 2021',
+    //   companyLink: 'https://example.com',
+    // },
   ],
   certifications: [
     {
