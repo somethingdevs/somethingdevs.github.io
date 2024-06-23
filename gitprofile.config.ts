@@ -130,16 +130,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'George Mason University',
+      degree: 'Master of Science - CS',
+      from: '2022',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Osmania Univeristy',
+      degree: 'Bachelor of Engineering - CSE',
+      from: '2018',
+      to: '2022',
     },
   ],
   publications: [
