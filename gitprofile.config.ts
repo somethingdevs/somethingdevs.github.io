@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://somethingdevs.github.io/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
