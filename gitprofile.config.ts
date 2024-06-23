@@ -25,7 +25,13 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['AbdulMalikDev/MjcetWiki', 'somethingdevs/secure-mini-mono', 'somethingdevs/cs678-jeebench', 'somethingdevs/almost-final-countdown', 'gokulprathin8/transcribify'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'AbdulMalikDev/MjcetWiki',
+          'somethingdevs/secure-mini-mono',
+          'somethingdevs/cs678-jeebench',
+          'somethingdevs/almost-final-countdown',
+          'gokulprathin8/transcribify',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,19 +39,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-            title: 'Transcribify',
-            description:
-              'Developed for Patriot Hack 2024 (Won Runner-up!). Transcribify makes video transcription accessible and efficient using AWS Transcribe and Comprehend. We built a scalable solution with React.js, Next.js, and AWS services, focusing on real-time updates, user experience, and cost optimization.',
-            imageUrl:
-              '/loyaltyfirst_inc.webp',
-            link: 'https://github.com/gokulprathin8/transcribify',
-          },
+          title: 'Transcribify',
+          description:
+            'Developed for Patriot Hack 2024 (Won Runner-up!). Transcribify makes video transcription accessible and efficient using AWS Transcribe and Comprehend. We built a scalable solution with React.js, Next.js, and AWS services, focusing on real-time updates, user experience, and cost optimization.',
+          imageUrl: '/loyaltyfirst_inc.webp',
+          link: 'https://github.com/gokulprathin8/transcribify',
+        },
         {
           title: 'LLMS vs JEE Advanced: Indian Teenagers Worst Nightmare!',
           description:
-             'This project investigates the performance of GPT-4 and other LLMs on JEEBench, a benchmark consisting of 515 difficult pre-engineering problems from the IIT JEE-Advanced exam. It aims to assess the ability of the model to solve complex reasoning problems in math, physics, and chemistry.',
-          imageUrl:
-            '/llms_vs_jee_advanced.webp',
+            'This project investigates the performance of GPT-4 and other LLMs on JEEBench, a benchmark consisting of 515 difficult pre-engineering problems from the IIT JEE-Advanced exam. It aims to assess the ability of the model to solve complex reasoning problems in math, physics, and chemistry.',
+          imageUrl: '/llms_vs_jee_advanced.webp',
           link: 'https://github.com/somethingdevs/cs678-jeebench',
         },
       ],
@@ -79,8 +83,7 @@ const CONFIG = {
     email: 'amohiud@gmu.edu',
   },
   resume: {
-    fileUrl:
-      '/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -102,8 +105,8 @@ const CONFIG = {
     'Git',
     'Docker',
     'AWS',
-    'Figma'
-],
+    'Figma',
+  ],
   experiences: [
     {
       company: 'The Ingentas',
@@ -144,16 +147,18 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'An Initial Framework for Mobile Healthcare Systems using Deep Neural Networks',
-      conferenceName: 'IEEE 9th International Conference on Advanced Computing (IACC)',
+      title:
+        'An Initial Framework for Mobile Healthcare Systems using Deep Neural Networks',
+      conferenceName:
+        'IEEE 9th International Conference on Advanced Computing (IACC)',
       journalName: '',
       authors: 'M. Misbhauddin, M. A. Malik, A. H. Mohiuddin',
       link: 'https://ieeexplore.ieee.org/document/8971543',
       description:
         'This paper reviews advancements in mobile healthcare applications using deep learning over the past 2-3 years, classifying them into cloud-computing, edge-computing, and offline systems. It also proposes an initial framework for mobile healthcare applications using deep neural networks for disease identification, management, and prevention.',
-    }
+    },
   ],
-  
+
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
