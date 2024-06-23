@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['AbdulMalikDev/MjcetWiki', 'somethingdevs/secure-mini-mono', 'somethingdevs/cs678-jeebench', 'somethingdevs/almost-final-countdown', 'gokulprathin8/transcribify'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+            title: 'Transcribify',
+            description:
+              'Developed for Patriot Hack 2024 (Won Runner-up!). Transcribify makes video transcription accessible and efficient using AWS Transcribe and Comprehend. We built a scalable solution with React.js, Next.js, and AWS services, focusing on real-time updates, user experience, and cost optimization.',
+            imageUrl:
+              '/loyaltyfirst_inc.webp',
+            link: 'https://github.com/gokulprathin8/transcribify',
+          },
         {
-          title: 'Project Name',
+          title: 'LLMS vs JEE Advanced: Indian Teenagers Worst Nightmare!',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+             'This project investigates the performance of GPT-4 and other LLMs on JEEBench, a benchmark consisting of 515 difficult pre-engineering problems from the IIT JEE-Advanced exam. It aims to assess the ability of the model to solve complex reasoning problems in math, physics, and chemistry.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '/llms_vs_jee_advanced.webp',
+          link: 'https://github.com/somethingdevs/cs678-jeebench',
         },
       ],
     },
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://somethingdevs.github.io/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
