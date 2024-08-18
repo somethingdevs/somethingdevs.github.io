@@ -109,6 +109,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Poliquicks',
+      position: 'Software Developer Intern',
+      from: 'Aug 2024',
+      to: 'Present',
+      companyLink: 'https://www.poliquicks.com/',
+    },
+    {
       company: 'The Ingentas',
       position: 'Software Developer Intern',
       from: 'May 2022',
@@ -124,12 +131,12 @@ const CONFIG = {
     // },
   ],
   certifications: [
-    // {
-    //   name: 'Lorem ipsum',
-    //   body: 'Lorem ipsum dolor sit amet',
-    //   year: 'March 2022',
-    //   link: 'https://example.com',
-    // },
+    {
+      name: 'Data Engineering, Big Data, and Machine Learning on GCP',
+      body: 'Coursera Specialization',
+      year: 'Aug 2024',
+      link: 'https://coursera.org/verify/specialization/3QNARZXDEOOX',
+    },
   ],
   educations: [
     {
