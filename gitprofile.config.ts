@@ -137,6 +137,12 @@ const CONFIG = {
       year: 'Aug 2024',
       link: 'https://coursera.org/verify/specialization/3QNARZXDEOOX',
     },
+    {
+      name: 'Oracle Cloud Infrastructure 2024 Generative AI Certified Professional',
+      body: 'Oracle Certified Professional',
+      year: 'Aug 2024',
+      link: '',
+    },
   ],
   educations: [
     {
