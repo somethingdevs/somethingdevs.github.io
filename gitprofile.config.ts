@@ -132,6 +132,12 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'Google Cloud Certified Professional Data Engineer',
+      body: 'Google Cloud',
+      year: 'Sept 2024',
+      link: 'https://www.credly.com/badges/4d531320-caf4-4e02-8621-4b93b9c20b68/public_url',
+    },
+    {
       name: 'Data Engineering, Big Data, and Machine Learning on GCP',
       body: 'Coursera Specialization',
       year: 'Aug 2024',
