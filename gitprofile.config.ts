@@ -133,7 +133,7 @@ const CONFIG = {
   certifications: [
     {
       name: 'Google Cloud Certified Professional Data Engineer',
-      body: 'Google Cloud',
+      body: 'Google',
       year: 'Sept 2024',
       link: 'https://www.credly.com/badges/4d531320-caf4-4e02-8621-4b93b9c20b68/public_url',
     },
@@ -145,7 +145,7 @@ const CONFIG = {
     },
     {
       name: 'Oracle Cloud Infrastructure 2024 Generative AI Certified Professional',
-      body: 'Oracle Certified Professional',
+      body: 'Oracle',
       year: 'Aug 2024',
       link: '',
     },
