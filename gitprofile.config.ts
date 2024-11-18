@@ -109,6 +109,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Cognizant',
+      position: 'Business Analyst',
+      from: 'Nov 2024',
+      to: 'Present',
+      companyLink: 'https://www.cognizant.com/',
+    },
+    {
       company: 'Poliquicks',
       position: 'Software Developer Intern',
       from: 'Aug 2024',
